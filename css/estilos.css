@@ -20,10 +20,10 @@ body nav{
 body nav li{
     list-style-type: none;
     float: left;
-    margin-right: 30px;
+    margin-right: 10px;
     position: relative;
     color: gray;
-    font-size: 20px;
+    font-size: 17px;
 }
 body nav ul li ul{
     display: none;
@@ -49,7 +49,7 @@ body nav ul li ul li:hover{
 #bustamante{
     background-image: url(../img/coviran-bustamante.png);
     background-size: cover;
-    height: 500px;
+    height: 400px;
 }
 .flex-rowWrap {
     display: flex;
@@ -101,7 +101,7 @@ body nav ul li ul li:hover{
     border-bottom: solid 1px white;
     margin-left: 4%;
     border-radius: 4px;
-    padding-right: 14%;
+    padding-right: 10%;
     margin-right: 30px;
 }
 #folletos{
@@ -109,7 +109,7 @@ body nav ul li ul li:hover{
     border-bottom: white;
     border-bottom: solid 1px white;
     border-radius: 4px;
-    padding-right: 13%;
+    padding-right: 10%;
     margin-right: 30px;
 }
 #otrosservicios{
@@ -117,7 +117,7 @@ body nav ul li ul li:hover{
     border-bottom: white;
     border-bottom: solid 1px white;
     border-radius: 4px;
-    padding-right: 12%;
+    padding-right: 10%;
     margin-right: 30px;
 }
 #redesSociales{
@@ -125,7 +125,7 @@ body nav ul li ul li:hover{
     border-bottom: white;
     border-bottom: solid 1px white;
     border-radius: 4px;
-    padding-right: 14%;
+    padding-right: 10%;
     margin-right: 30px;
 }
 footer{
