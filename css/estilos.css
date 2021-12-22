@@ -1,0 +1,147 @@
+header{
+    background-color: #285b35;
+    color: white;
+}
+.alignder{
+    text-align: right;
+}
+.cb{
+    clear: both;
+}
+.colorwhite{
+    color: white;
+}
+body nav{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 10%;
+}
+body nav li{
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    color: gray;
+    font-size: 20px;
+}
+body nav ul li ul{
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    background-color: white;
+}
+body nav ul li:hover ul{
+    display: block;
+}
+body nav ul li ul li{
+    padding: 20px 0px;
+    width: 160px;
+    color: black;
+}
+body nav ul li ul li:hover{
+    background-color: gray;
+}
+#imgnav{
+    float: left;
+    margin-left: 2%;
+}
+#bustamante{
+    background-image: url(../img/coviran-bustamante.png);
+    background-size: cover;
+    height: 500px;
+}
+.flex-rowWrap {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    flex-wrap: nowrap;
+}
+.w-100{
+    width: 100%;
+}
+.mt-30{
+    margin-top: 30px;
+}
+#fotos{
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+#img1{
+    border-radius: 10px;
+    border: solid 1px gray;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#img2{
+    border-radius: 10px;
+    border: solid 1px gray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#img3{
+    border-radius: 10px;
+    border: solid 1px gray;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+#subrayado{
+    background-color: #297b3c;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#supermercados{
+    float: left;
+    border-bottom: solid 1px white;
+    margin-left: 4%;
+    border-radius: 4px;
+    padding-right: 14%;
+    margin-right: 30px;
+}
+#folletos{
+    float: left;
+    border-bottom: white;
+    border-bottom: solid 1px white;
+    border-radius: 4px;
+    padding-right: 13%;
+    margin-right: 30px;
+}
+#otrosservicios{
+    float: left;
+    border-bottom: white;
+    border-bottom: solid 1px white;
+    border-radius: 4px;
+    padding-right: 12%;
+    margin-right: 30px;
+}
+#redesSociales{
+    float: left;
+    border-bottom: white;
+    border-bottom: solid 1px white;
+    border-radius: 4px;
+    padding-right: 14%;
+    margin-right: 30px;
+}
+footer{
+    background-color: #285b35;
+    color: white;
+    padding: 20px 20px;
+}
+footer img{
+    margin-left: 15%;
+}
+footer p{
+    margin-left: 2%;
+}
+#paises{
+    float: left;
+}
+#accesoprivado{
+    float: right;
+}
