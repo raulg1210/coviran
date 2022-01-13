@@ -49,7 +49,9 @@ body nav ul li ul li:hover{
 #bustamante{
     background-image: url(../img/coviran-bustamante.png);
     background-size: cover;
-    height: 400px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
 }
 .flex-rowWrap {
     display: flex;
@@ -144,4 +146,12 @@ footer p{
 }
 #accesoprivado{
     float: right;
+}
+img [src="img/fanta2.png"]{
+    position: absolute;
+    left: 2000px;
+    transition: left 3s;
+}
+#bustamante:hover img [src="img/fanta2.png"]{
+    left: 0;
 }
