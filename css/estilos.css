@@ -147,11 +147,17 @@ footer p{
 #accesoprivado{
     float: right;
 }
-img [src="img/fanta2.png"]{
+img[src="img/fanta2.png"]{
     position: absolute;
-    left: 2000px;
-    transition: left 3s;
+    left: 1400px;
+    width: 20%;
+    height: 20%;
+    transition: left 3s, transform 2s, width 4s, height 4s;
+    margin: 0 auto;
 }
-#bustamante:hover img [src="img/fanta2.png"]{
+#bustamante:hover img[src="img/fanta2.png"]{
     left: 0;
+    transform: rotate(720deg);
+    height: 100%;
+    width: 100%;
 }
